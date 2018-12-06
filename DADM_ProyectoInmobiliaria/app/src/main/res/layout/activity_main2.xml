@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity"
+    android:background="#CEE3F6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inmobiliaria"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID INMUEBLE"
+        android:id="@+id/idinmu"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Domicilio Inmueble"
+        android:id="@+id/domicilioinmu"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio Venta"
+        android:id="@+id/preciov"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio Renta"
+        android:id="@+id/precior"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha Transaccion DD/MM/AA"
+        android:id="@+id/fechat"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="IDP"
+        android:id="@+id/idp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="INSERTAR"
+        android:id="@+id/insertar"
+        android:layout_marginLeft="30dp"
+        android:background="#088A68"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="CONSULTAR"
+        android:id="@+id/consultar"
+        android:layout_marginLeft="20dp"
+        android:background="#088A68"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="ELIMINAR"
+        android:id="@+id/eliminar"
+        android:background="#088A68"
+        android:layout_marginLeft="30dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="ACTUALIZAR"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/actualizar"
+        android:background="#088A68"/>
+    </LinearLayout>
+
+
+</LinearLayout>
